@@ -1,0 +1,288 @@
+body{
+background-color: whitesmoke;
+width:100% ;
+    height: 100% ;
+font-family:sans-serif;
+margin:0 auto;
+padding:0;
+
+}
+.loading 
+
+{
+display:block ;
+background-color:rgba(0,0,0,0.5);
+width:100%;
+height:100%;
+position:fixed;
+z-index:20; 
+}
+.img 
+
+{
+position:relative;
+    padding-top: 18%;
+    padding-left: 18%;
+    z-index:100;
+}
+h2
+{   display:grid;
+    padding-left:32%;
+    z-index:20;
+     
+}
+.navbar
+{  
+
+
+  
+}
+ .navbar-nav
+{
+    padding:0px 100px 0px;
+}
+.nav-item
+
+{
+    padding:0px 30px;
+    font-size: 25px;
+}
+.carousel-inner img {
+    
+      width: 100%;
+      height:600px;
+  }
+
+#demo
+{
+
+}
+
+
+    
+.profile
+{
+    
+    position:relative;
+    margin-top:200px;
+    margin-left:30px;
+    font-size: 60px;
+    text-shadow: 1px 2px 5px lightblue;
+    opacity: 0.7;
+    filter: alpha(opacity=60);
+}
+marquee
+{
+    height:70px;
+    
+}
+
+.abt
+{  
+    position: relative;
+    text-align:justify;
+    margin-left:30px;
+    line-height: 35px;
+    top:50px;
+    width:80%;
+    
+    
+   
+    color: gray;
+    text-shadow: 1px 1px 3px grey;
+}
+.myimage
+{  position:relative;
+    margin-top: 70px;
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    margin-left: 50px;
+    padding-left:10px;
+    box-shadow: 2px 4px 7px grey;
+    }
+
+#more 
+{
+    display: none;
+}
+.hdsf
+
+{   position: relative;
+    font-size:40px;
+    margin-left: 50px;
+    margin-top:80px;
+}
+.hs
+{   position: relative;
+    font-size: 30px;
+    margin-left:50px;
+    margin-top:100px;
+}
+.un
+{   position: relative;
+    margin-left: 50px;
+
+    padding-top:40px;
+    line-height: 40px;
+    color: gray;
+    text-shadow: 1px 1px 2px gray;
+    
+}
+.soft
+{
+    position: relative;
+    font-size: 30px;
+     margin-left:50px;
+     margin-top:100px;
+}
+.hobby
+{
+     position: relative;
+    font-size: 30px;
+     margin-left:50px;
+     margin-top:100px;
+}
+.table
+{   position: relative;
+    margin-left: 120px;
+    margin-top:200px;
+    width:80%;
+    line-height:80px;
+    
+    
+}
+.table tr td
+{
+    color:gray;
+    text-shadow: 1px 1px 2px gray;
+}
+.table tr th
+{
+     text-shadow: 1px 1px 2px gray;
+    font-size:20px;
+}
+.hori
+{   
+    width:70%;
+    margin-left: 50px;
+}
+.env
+{   position: relative;
+    width:40px;
+    height: 45px;
+margin-left:-33px;
+}
+.msg
+{ position: relative;
+  font-size: 40px;
+    margin-left:15px;
+    margin-top:50px;
+    padding-bottom: 20px;
+    color: gray;
+    text-shadow: 1px 2px 5px gray;
+}
+textarea
+{   position:relative;
+    width:330px;
+    height:200px;
+    margin-left:-15px;
+    z-index:10;
+}
+.btn
+{  position: relative;
+    margin-left:-15px;
+    border-radius: 12px;
+    height:35px;
+    width:80px;
+}
+.nmbr
+{   position: relative;
+    margin-left: 230px;
+    margin-top:10px;
+}
+.social
+{   position: relative;
+    padding: 18px;
+    
+}
+.button {
+  background: green;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+.view {
+  max-width: 220px;
+  margin: auto;
+  height: 390px;
+  border: 10px solid black;
+  border-top: 30px solid black;
+  border-bottom: 30px solid black;
+  border-radius: 15px; padding: 10px;
+  position: relative;
+}
+#btn
+{
+    display: inline;
+}
+#btn1
+{
+    display: inline;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #message {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+  
